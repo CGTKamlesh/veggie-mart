@@ -1,0 +1,1592 @@
+@font-face {
+    font-family: 'great_vibesregular';
+    src: url('../fonts/greatvibes-regular-webfont.eot');
+    src: url('../fonts/greatvibes-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/greatvibes-regular-webfont.woff2') format('woff2'),
+         url('../fonts/greatvibes-regular-webfont.woff') format('woff'),
+         url('../fonts/greatvibes-regular-webfont.ttf') format('truetype'),
+         url('../fonts/greatvibes-regular-webfont.svg#great_vibesregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'AvenirNextLTPro-Demi';
+	src: url('../fonts/AvenirNextLTPro-Demi.eot?#iefix') format('embedded-opentype'), 
+		url('../fonts/AvenirNextLTPro-Demi.otf') format('opentype'),  
+		url('../fonts/AvenirNextLTPro-Demi.woff') format('woff'), 
+		url('../fonts/AvenirNextLTPro-Demi.ttf') format('truetype'), 
+		url('../fonts/AvenirNextLTPro-Demi.svg#AvenirNextLTPro-Demi') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirNextLTProBold_0';
+    src: url('../fonts/AvenirNextLTProBold_0.eot');
+    src: url('../fonts/AvenirNextLTProBold_0.eot') format('embedded-opentype'),
+         url('../fonts/AvenirNextLTProBold_0.woff2') format('woff2'),
+         url('../fonts/AvenirNextLTProBold_0.woff') format('woff'),
+         url('../fonts/AvenirNextLTProBold_0.ttf') format('truetype'),
+         url('../fonts/AvenirNextLTProBold_0.svg#AvenirNextLTProBold_0') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirNextLTProItalic_0';
+    src: url('../fonts/AvenirNextLTProItalic_0.eot');
+    src: url('../fonts/AvenirNextLTProItalic_0.eot') format('embedded-opentype'),
+         url('../fonts/AvenirNextLTProItalic_0.woff2') format('woff2'),
+         url('../fonts/AvenirNextLTProItalic_0.woff') format('woff'),
+         url('../fonts/AvenirNextLTProItalic_0.ttf') format('truetype'),
+         url('../fonts/AvenirNextLTProItalic_0.svg#AvenirNextLTProItalic_0') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirNextLTProMedium_0';
+    src: url('../fonts/AvenirNextLTProMedium_0.eot');
+    src: url('../fonts/AvenirNextLTProMedium_0.eot') format('embedded-opentype'),
+         url('../fonts/AvenirNextLTProMedium_0.woff2') format('woff2'),
+         url('../fonts/AvenirNextLTProMedium_0.woff') format('woff'),
+         url('../fonts/AvenirNextLTProMedium_0.ttf') format('truetype'),
+         url('../fonts/AvenirNextLTProMedium_0.svg#AvenirNextLTProMedium_0') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirNextLTProRegular_0';
+    src: url('../fonts/AvenirNextLTProRegular_0.eot');
+    src: url('../fonts/AvenirNextLTProRegular_0.eot') format('embedded-opentype'),
+         url('../fonts/AvenirNextLTProRegular_0.woff2') format('woff2'),
+         url('../fonts/AvenirNextLTProRegular_0.woff') format('woff'),
+         url('../fonts/AvenirNextLTProRegular_0.ttf') format('truetype'),
+         url('../fonts/AvenirNextLTProRegular_0.svg#AvenirNextLTProRegular_0') format('svg');
+}
+
+body{
+	padding:0;
+	margin:0;
+	font-family: 'AvenirNextLTProRegular_0';
+	font-size:14px;
+	color:#000000;	
+}
+
+.fullwidth{
+	width:100%;
+	float:left;
+}
+
+.headertop{
+	min-height:40px;
+}
+
+.heroback{
+	background:url(../images/heroimage.png) no-repeat center center;
+	background-size:cover;
+	margin-top:-118px;
+	min-height:732px;
+}
+
+
+.headertop .navbar-brand{
+	padding:0px 15px;
+	height:40px;
+}
+
+.headertop .navbar{
+	height:40px;
+	background-color:#252932;
+	border:none;
+	margin-bottom:0px;
+	border-radius:0px;
+	min-height:40px;
+}
+.topnavigation{
+	width:70%;
+	float:right;
+	margin-right:-15px;
+}
+.topnavigation > li {
+    float: right;
+}
+
+.navbar-default .navbar-nav.topnavigation > li > a, .navbar-default .navbar-nav.topnavigation > li.active > a{
+	font-size:13px;
+	color:#ffffff;
+	background-color:transparent;
+	padding:0px 15px;
+	margin:14px 0 13px;
+	line-height:13px;
+	border-left:1px solid #ffffff;
+}
+
+.navbar-default .navbar-nav.topnavigation > li:last-child > a{
+	border-left:none;
+}
+
+.navbar-default .navbar-nav.topnavigation > li > a img{
+	float:left;
+	display:inline-block;
+	margin-right:7px;
+}
+
+.mainnavigation{
+	width:92.2%;
+	float:right;	
+	min-height:75px;
+	background:rgba(255,255,255,0.22);
+	margin-right:0px;
+	padding-right:5px;
+}
+
+.mainnavigation > li {
+    float: right;
+}
+
+.cartcount_cover{
+	float:right;
+	height:75px;
+	background:#fb4e0c;
+	min-width:72px;
+	text-align:center;
+	padding:29px 0 0;
+	position:relative;
+}
+.navigations{
+	width:81.6%;
+	float:right;
+	padding:0;
+}
+
+.logos{
+	width:17.2%;
+	float:left;
+}
+
+
+.navbar-default .navbar-nav.mainnavigation > li > a{
+	font-size:14px;
+	color:#ffffff;
+	background-color:transparent;
+	padding:0px 15px;
+	margin:31px 0px;
+	line-height:13px;
+	border-left:1px solid #ffffff;
+	text-transform:uppercase;
+}
+
+.navbar-default .navbar-nav.mainnavigation > li > a:hover, .navbar-default .navbar-nav.mainnavigation > li > a:focus, .navbar-default .navbar-nav.mainnavigation > li.active > a{
+	color:#88be4c;
+	background-color:transparent;
+
+}
+
+
+.navbar-default .navbar-nav.mainnavigation > li:last-child > a{
+	border-left:none;
+}
+
+
+.cartcount{
+	position:absolute;
+	top:14px;
+	right:10px;
+	background-color:#ffffff;
+	border-radius:50%;
+	height:23px;
+	width:23px;
+	text-align:center;
+	line-height:23px;
+	font-size:13px;
+	color:#000000;
+}
+
+.herotext1{
+	font-family: 'great_vibesregular';
+	font-size:74px;
+	color:#ffffff;
+	text-align:center;
+	margin-top:250px;
+	text-shadow:2px 2px 2px #000000;
+}
+
+
+.herotext2{
+	font-family: 'AvenirNextLTProMedium_0';
+	font-size:54px;
+	color:#ffffff;
+	text-transform:uppercase;
+	text-align:center;
+	margin-top:5px;
+	text-shadow:2px 2px 2px #000000;
+	margin-bottom:45px;
+}
+
+.searchrow{
+	float: none;
+    margin:0px auto;
+    width: 815px;
+}
+
+.herosearchbar{
+	position:relative;
+	width:606px;
+	height:61px;
+	margin-bottom:0px;
+	float:left;
+	
+}
+
+.herosearchbar .form-control{
+	width:100%;
+	height:61px;
+	padding:0 30px;
+	color:#000000;
+	font-size:15px;
+}
+
+.herosearchbar .navbar-form{
+	width:100%;
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+
+.herosearch{
+	position:absolute;
+	top:0px;
+	right:0px;
+	height:61px;
+	background:#fb4e0c;
+	border:none;
+	border-radius:0 4px 4px 0;
+	min-width:66px;
+	text-align:center;
+}
+
+.allveggie{
+	width:160px;
+	height:61px;
+	padding:0;
+	margin-left:19px;
+	float:left;
+}
+
+.allveggie .navbar-form{
+	padding:0px;
+	margin:0;
+}
+
+.allveggiebtn{
+	width:100%;
+	height:61px;	
+	text-align:center;
+	background:#88be4c;
+	border-radius:4px;
+	font-family: 'AvenirNextLTProMedium_0';
+	font-size:20px;
+	border:none;
+	color:#ffffff;
+	border-bottom:2px solid #6f9c3e;
+}
+
+.special_offer{
+	background:url(../images/verticalstrip.jpg) no-repeat center bottom;
+	min-height:145px;
+	background-size:cover;
+}
+
+.todaysoffer{
+	width:20%;
+	float:left;
+	margin-top:8px;
+}
+
+.todays{
+	width:100%;
+	float:left;
+	font-size:45px;
+	font-family: 'AvenirNextLTProMedium_0';
+	color:#ffffff;
+}
+
+
+.offer{
+	width:100%;
+	float:left;
+	font-size:45px;
+	font-family: 'great_vibesregular';
+	padding-left:20px;
+}
+
+.saveprice{
+	font-family: 'AvenirNextLTPro-Demi';
+	font-size:18px;
+	color:#ffffff;
+	background:url(../images/tagbg.png) no-repeat center center;
+	width:108px;
+	height:108px;
+	float:left;
+	padding-top:25px;
+	margin-top:23px;
+}
+
+.saveprice span span{
+	font-family: 'AvenirNextLTProRegular_0';
+	font-size:14px;
+	width:auto;
+	float:none;
+}
+
+.saveprice span{
+	width:100%;
+	text-align:center;
+	float:left;
+}
+
+.saveprice span font{
+	font-size:24px;
+	font-weight:bold;
+	line-height:24px;
+}
+
+.offer_pic{
+	width:auto;
+	float:left;
+	margin-top:18px;
+	margin-left:28px;
+}
+
+.offer_veggie_pic{
+	width:210px;
+	float:left;
+	text-align:center;
+}
+
+.offer_veggie_detail{
+	width:210px;
+	float:left;
+	margin-top:30px;
+}
+
+.ovd_name{
+	width:100%;
+	float:left;
+	font-size:16px;
+	text-transform:uppercase;
+	text-align:center;
+	font-family: 'AvenirNextLTProMedium_0';
+	color:#000000;
+	margin-bottom:5px;
+}
+
+.pricenoff{
+	font-family: 'AvenirNextLTPro-Demi';
+	font-size:16px;
+	color:#000000;
+	width:100%;
+	text-align:center;
+}
+
+.orange{
+	color:#fb4e0c;
+	display:inline-block;
+	text-decoration:line-through;
+}
+
+.pricenoff span{
+	font-size:14px;
+	font-family: 'AvenirNextLTProRegular_0';
+}
+
+.stock_detail{
+	width:336px;
+	float:right;
+	margin-top:10px;
+}
+
+.stock_detail .progress{
+	background:#dfdfdf;
+	height:8px;
+	width:100%;
+	float:left;
+	margin-top:7px;
+	margin-bottom:10px;
+}
+
+.stock_detail .progress-bar{
+	background:#fb4e0c;
+	border-radius:4px;
+}
+
+.avilkg{
+	width:50%;
+	float:left;
+	text-align:left;
+}
+
+.soldkg{
+	width:50%;
+	float:right;
+	text-align:right;
+}
+
+.avilkg span, .soldkg span{
+	font-family: 'AvenirNextLTProBold_0';
+}
+
+.hurryuup{
+	width:100%;
+	float:left;
+	text-align:center;
+	margin-bottom:10px;
+}
+
+.dealtimeout{
+	width:100%;
+	float:left;
+	text-align:center;
+	font-family: 'AvenirNextLTPro-Demi';
+	font-size:18px;
+	padding-left:72px;
+}
+
+.hms{
+	width:24%;
+	float:left;
+}
+
+.dealtimeout span{
+	width:0.5%;
+	float:left;
+}
+
+
+.dealtimeout font{
+	padding:5px 10px;
+	background:#e6e6e6;
+	font-family: 'AvenirNextLTPro-Demi';
+	font-size:18px;
+	color:#000000;
+	border-radius:5px;
+}
+
+.hms .num{
+	width:100%;
+	float:left;
+}
+
+.hms .txt{
+	width:100%;
+	float:left;
+	font-size:12px;
+	font-family: 'AvenirNextLTProRegular_0';
+	margin-top:10px;
+}
+
+
+.season_veg .owl-item{
+	padding:0 11px;
+}
+
+.svpic {
+    border: 1px solid #eaeaea;
+    display: table-cell;
+    height: 215px;
+    text-align: center;
+    vertical-align: middle;
+    width: 215px;
+}
+
+.season_veg h3{
+	width:100%;
+	float:left;
+	text-align:center;
+	font-family: 'AvenirNextLTProMedium_0';
+	font-size:14px;
+	color:#000000;
+	text-transform:uppercase;
+}
+
+.kg_unit{
+	width:50%;
+	float:left;
+}
+
+.item_price{
+	width:50%;
+	float:right;
+	text-align:right;
+	font-size:14px;
+	color:#fb4e0c;
+	font-family: 'AvenirNextLTPro-Demi';
+}
+
+.item_price span{
+	font-size:16px;
+	font-weight:bold;
+}
+
+.unitsper{
+	width:95px;
+	background:#dddddd;
+	float:left;
+	padding:2px;
+}
+
+
+.unitsper select{
+	background-color:transparent;
+	border:none;
+	font-family: 'AvenirNextLTProMedium_0';
+	font-size:14px;
+	color:#000000;
+	float:left;
+}
+
+.unitsper input{
+	background:#ffffff;
+	width:42px;
+	height:23px;
+	padding:5px;
+	border:none;
+	float:right;
+	text-align:center;
+	font-family: 'AvenirNextLTProMedium_0';
+}
+
+.add_to_basket{
+	width:100%;
+	float:left;
+	padding:2px;
+	background:#88be4c;
+	cursor:pointer;
+	text-align:center;
+	margin-top:10px;
+}
+
+.add_to_basket span{
+	display:inline-block;
+	background:#ffffff;
+	width:151px;
+	height:33px;
+	text-align:center;
+	font-family: 'AvenirNextLTProMedium_0';
+	font-size:14px;
+	color:#000000;
+	text-transform:uppercase;
+	float:right;
+	padding:8px 0 0;
+}
+
+.add_to_basket img{
+	margin-top:5px;
+}
+
+.season_veg{
+	padding-bottom:20px;
+	margin-bottom:30px;
+	border-bottom:3px solid #e7e7e7;
+	
+}
+
+.season_veg_title{
+	border-bottom: 1px solid #ececea;
+    margin: 20px 11px;
+    padding: 11px 11px 11px 0px;
+    width: 98%;
+	font-size:20px;
+	text-transform:uppercase;
+	color:#000000;
+}
+
+
+.season_veg .owl-controls{
+    right: 2px;
+    position: absolute;
+    top: -62px;
+    width:auto;
+}
+
+.svpic span{
+	display:none;	
+	position:absolute;
+	top:10px;
+	left:22px;
+}
+
+.svpic font{
+	display:none;	
+	position:absolute;
+	top:10px;
+	right:18px;
+}
+
+.svpic .active{
+	display:block;	
+}
+
+.bestsell_veg_title{
+	border-bottom: 1px solid #ececea;
+    margin: 20px 0px 0;
+    padding: 11px 23px 11px 23px;
+    width: 100%;
+	font-size:20px;
+	text-transform:uppercase;
+	color:#ffffff;
+	background-color:#fb4e0c;
+	position:relative;
+}
+
+.bestsell{
+	padding-left:255px;
+	background:url(../images/bestsellerbg.png) no-repeat;
+	background-position:10px top;
+	padding-top:21px;
+	margin-top:-1px;
+	
+	
+}
+
+.season_veg.bestsell .owl-controls{
+	top:-40px;
+}
+
+.arc{
+	bottom:-10px;
+	left:0;
+	position:absolute;
+}
+
+.blogsection{
+	background-color:#f6b163;
+	border-bottom:8px solid #b8b8b8;
+	min-height:618px;
+	position:relative;
+}
+
+.blogbg1{
+	top:0px;
+	left:0;
+	position:absolute;
+}
+
+.blogbg2{
+	top:0px;
+	right:0;
+	position:absolute;
+}
+
+.testimonialsection{
+	background-color:#f0f0f0;
+	min-height:465px;
+	position:relative;
+}
+
+.discountsection{
+	background-color:#ffffff;
+	min-height:185px;
+	position:relative;
+	padding:51px 0;
+}
+
+.footer1section{
+	background-color:#1b1e24;
+	min-height:108px;
+	position:relative;
+	padding:34px 0;
+}
+
+.footer2section{
+	background-color:#252932;
+	min-height:432px;
+	position:relative;
+	padding-top:35px;
+}
+
+.footer3section{
+	background-color:#1b1e24;
+	min-height:70px;
+	position:relative;
+	padding:25px 0;
+}
+
+.latest_blog_title{
+	text-align:center;
+	font-size:35px;
+	color:#000000;
+	margin:25px 0 15px;
+}
+
+.latest_blog_title span{
+	font-family: 'AvenirNextLTPro-Demi';
+}
+
+.latest_blog_subtitle{
+	text-align:center;
+	font-size:16px;
+	color:#000000;
+	margin:0px 0 35px;
+	font-family: 'AvenirNextLTProItalic_0';
+}
+
+.testimonial_tiles{
+	width:100%;
+	float:left;
+	background-color:#ffffff;
+	border-bottom:3px solid #e7e7e7;
+	transition: all 0.3s ease;
+	cursor:pointer;
+}
+
+.testimonial_tiles:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.80);
+    transition: all 0.3s ease;
+}
+
+.tt_heading{
+	font-family: 'AvenirNextLTProMedium_0';
+	font-size:14px;
+	color:#000000;
+	width:100%;
+	float:left;
+	text-align:justify;
+	margin:23px 0 8px;
+	padding:0 20px;
+	text-transform:uppercase;
+}
+
+
+.tt_pics{
+	width:100%;
+	float:left;
+	text-align:center;
+	position:relative;
+}
+
+.tt_pics img{
+	max-width:100%;
+}
+
+.tt_text{
+	font-size:14px;
+	color:#575757;
+	width:100%;
+	float:left;
+	text-align:justify;
+	padding:0 20px;
+}
+
+.tt_readmore{
+	font-family: 'AvenirNextLTProMedium_0';
+	font-size:14px;
+	color:#000000;
+	text-transform:uppercase;
+	padding:10px 17px;
+	border:1px solid #dddddd;
+	cursor:pointer;
+	float:left;
+	margin-top:23px;
+	margin-left:20px;
+	margin-bottom:18px;
+}
+
+.tt_date{
+	position:absolute;
+	bottom:-12px;
+	left:22px;
+	width:60px;
+	border:4px solid #ffffff;
+	background:#ed6663;
+	padding:5px 0;
+}
+
+.tt_dd, .tt_mm{
+	width:100%;
+	float:left;
+	font-family: 'AvenirNextLTProMedium_0';
+	font-size:14px;
+	color:#ffffff;
+	text-transform:uppercase;
+}
+
+.testimonil_title{
+	width:100%;
+	float:left;
+	font-family: 'AvenirNextLTPro-Demi';
+	font-size:35px;
+	text-align:center;
+	margin:30px 0;
+}
+
+.testi_picss{
+	width:100%;
+	float:left;
+	text-align:center;
+}
+
+.testi_picss span{
+	background:url(../images/testi_bg.png) no-repeat;
+	display:inline-block;
+	width:150px;
+	height:154px;
+}
+
+.testi_picss span img{
+	border-radius: 50%;
+    height: 140px;
+    margin-top: 5px;
+    width: 140px;
+}
+
+.testi_decs{
+	width:100%;
+	float:left;
+	font-family: 'AvenirNextLTProItalic_0';
+	font-size:16px;
+	text-align:center;
+	margin:20px 0 30px;
+}
+
+.testi_name{
+	width:100%;
+	float:left;
+	font-size:25px;
+	text-align:center;
+	margin-bottom:25px;
+}
+
+.purle_div{
+	width:395px;
+	height:78px;
+	background:url(../images/purple_bg.png) no-repeat center center;
+	float:left;
+	position:relative;
+	z-index:1;
+	margin-top:3px;
+}
+
+.green_div{
+	width:446px;
+	height:84px;
+	background:url(../images/green_bg.png) no-repeat center center;
+	float:left;
+	margin:0 -34px;
+	position:relative;
+	z-index:2;
+	padding-left:15px;
+}
+
+.orange_div{
+	width:395px;
+	height:78px;
+	background:url(../images/orange_bg.png) no-repeat center center;
+	float:left;
+	position:relative;
+	z-index:1;
+	margin-top:3px;
+	padding-left:35px;
+}
+
+.discount_pic{
+	width:20%;
+	float:left;
+	padding:20px 0 0 20px;
+}
+
+.discount_text{
+	width:80%;
+	float:left;
+	color:#ffffff;
+	margin-top:12px;
+}
+
+.discount_heading{
+	width:100%;
+	float:left;
+	font-size:20px;
+	text-transform:uppercase;
+}
+
+.discount_subheading{
+	width:100%;
+	font-size:15px;
+	float:left;
+}
+
+
+.orange_div .discount_text{
+	width:75%
+}
+
+.orange_div .discount_pic{
+	width:25%
+}
+
+.subscription{
+	font-size:20px;
+	font-family: 'AvenirNextLTProMedium_0';
+	color:#88be4c;
+	text-transform:uppercase;
+	padding-left: 10px;
+	padding-right: 10px;
+	float:left;
+	margin-top:4px;
+}
+
+.paycards img{
+	margin-right:13px;
+	float:left;
+	cursor:pointer;
+}
+
+.subs_inputtxt{
+	width:400px;
+	height:38px;
+	background:#ffffff;
+	border:1px solid #e9e7e7;
+	float:left;
+	padding:0 15px;
+}
+
+.subs_btn{
+	background:#88be4c url(../images/msgbtnnn.jpg) no-repeat 18px center;
+	font-size: 16px;
+    height: 38px;
+    padding-left: 25px;
+    padding-top: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 142px;
+	color:#ffffff;
+	border:none;
+	float:right;
+	font-family: 'AvenirNextLTProMedium_0';
+}
+
+.footgreen{
+	background:#88be4c;
+	border-radius:5px 5px 0 0;
+	padding:30px;
+	color:#ffffff;
+	font-size:13px;
+	text-transform:uppercase;
+}
+
+.foot_logo{
+	width:100%;
+	float:left;
+	text-align:center;
+	margin-bottom:35px;
+}
+.foot_social{
+	width:100%;
+	float:left;
+}
+.foot_social img{
+	margin-right:3px;
+}
+
+.foot_add_1{
+	width:100%;
+	float:left;
+	border-bottom:1px dotted #ffffff;
+	padding-bottom:18px;
+	margin-bottom:18px;
+}
+
+.foot_add_2{
+	width:100%;
+	float:left;
+	border-bottom:1px dotted #ffffff;
+	padding-bottom:18px;
+	margin-bottom:18px;
+}
+
+.foot_add_3{
+	width:100%;
+	float:left;
+	border-bottom:1px solid #ffffff;
+	padding-bottom:18px;
+	margin-bottom:18px;
+}
+
+.foot_add_1 img, .foot_add_2 img, .foot_add_3 img{
+	margin-right:7px;
+}
+
+.footer-column {
+    float: left;
+    margin-bottom: 40px;
+    margin-left: 25px;
+    min-height: 220px;
+    padding-top: 80px;
+    width: 30%;
+}
+
+.footer-column h4 {
+    color: #88be4c;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0 0 18px;
+    text-transform: uppercase;
+	font-family: 'AvenirNextLTProMedium_0';
+}
+
+
+.footer-column ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-column ul li {
+	color: #b7bcc8;
+    list-style: inside none circle;
+}
+
+
+.footer-column ul li a{
+    color: #b7bcc8;
+    cursor: pointer;
+    display: inline-block !important;
+    font-size: 13px;
+    margin-bottom: 10px;
+    line-height: 20px;
+    margin-right: 10px;
+    vertical-align: top;
+	
+}
+
+.footer3section .coppyright {
+    color: #666;
+    float: left;
+}
+
+.footveggies{
+	position:absolute;
+	right:-71px;
+	top:-125px;
+}
+
+.coupon{
+	float:right;
+	width:30%;
+	font-size:13px;
+	color:#ffffff;
+	margin-top:13px;
+	margin-bottom:9px;
+}
+
+.coupon span{
+	color:#88be4c;
+}
+
+.bestsell.owl-theme .owl-controls .owl-buttons div {
+    color: #fff;
+}
+
+.product_detail .bestsell {
+    background:none;
+    margin-top: -1px;
+    padding-left:0px;
+    padding-top: 21px;
+}
+
+.product_detail .season_veg {
+    border-bottom: 0px solid #e7e7e7;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.heroback.pro_hero{
+	background:url(../images/hero_pro_detail.jpg) no-repeat center center;
+	background-size:cover;
+	margin-top:-100px;
+	min-height:442px;
+}
+
+
+.pro_hero .herotext1{
+	margin-top:235px;
+}
+
+.heroback.search_page{
+	background:url(../images/hero_search.jpg) no-repeat center center;
+	background-size:cover;
+	margin-top:-80px;
+	min-height:438px;
+}
+
+.search_page .searchrow{
+	margin-top:229px;
+}
+
+.noleftright{
+	margin-left:0px;
+	margin-right:0px;
+	width:100%;
+}
+
+.search_items{
+	width:100%;
+	float:left;
+	border-bottom:0px solid #e7e7e7;
+}
+.search_items .item{
+	width:270px;
+	margin:15px 11px 15px 11px;
+	float:left;
+	position:relative;
+	border:1px solid #eaeaea;
+}
+
+.search_items .item:nth-child(3n){
+	margin-right:0px;
+}
+
+.left_seacrh_panel{
+	width:282px;
+	float:left;
+	margin-right:21px;
+}
+
+.right_seacrh_panel{
+	width:74%;
+	float:left;
+}
+
+.search_items .svpic{
+	border:none;
+	width:270px;
+}
+
+.search_items .kg_unit{
+	padding-left:15px;
+}
+.search_items .item_price{
+	padding-right:15px;
+}
+
+
+.search_items .item:hover{
+	border:1px solid #88be4c;
+	box-shadow:0 0 15px #9C9A9A;
+}
+
+.cart_main_cover{
+	width:100%;
+	float:left;
+	margin:50px 0;
+}
+.cart_heading_row{
+	background:#88be4c;
+	padding:18px 30px;
+	width:100%;
+	float:left;
+	font-family: 'AvenirNextLTPro-Demi';
+	font-size:18px;
+	color:#ffffff;
+}
+
+
+.cart_item_row{
+	width:100%;
+	float:left;
+	font-family: 'AvenirNextLTProRegular_0';
+	font-size:18px;
+}
+
+.cart_detail_row{
+	width:100%;
+	float:left;
+	padding:20px 0 15px;
+	border-bottom:1px solid #e8e8e8;
+	margin-bottom:30px;
+}
+
+.cart_checkout_row{
+	width:100%;
+	float:left;
+}
+
+.cart_items{
+	width:47%;
+	float:left;
+}
+.cart_quantity{
+	width:17%;
+	float:left;
+}
+.cart_weight{
+	width:12%;
+	float:left;
+}
+.cart_pricekg{
+	width:12%;
+	float:left;
+}
+.cart_amounts{
+	width:12%;
+	float:left;
+}
+
+
+.cart_item_row .cart_items{
+	width:47%;
+	display:table-cell;
+	vertical-align:middle;
+	float:none;
+}
+.cart_item_row .cart_quantity{
+	width:17%;
+	display:table-cell;
+	vertical-align:middle;
+	float:none;
+}
+.cart_item_row .cart_weight{
+	width:12%;
+	display:table-cell;
+	vertical-align:middle;
+	float:none;
+}
+.cart_item_row .cart_pricekg{
+	width:12%;
+	display:table-cell;
+	vertical-align:middle;
+	float:none;
+}
+.cart_item_row .cart_amounts{
+	width:12%;
+	display:table-cell;
+	vertical-align:middle;
+	float:none;
+}
+
+
+.cart_weight span, .cart_pricekg span, .cart_amounts span{
+	color:#88be4c;
+	font-family: 'AvenirNextLTPro-Demi';
+	font-weight:bold;
+	font-size:21px;
+}
+
+.cir{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.cir li{
+	width:100%;
+	float:left;
+	padding:20px 30px;
+	border-bottom:1px solid #e2e2e2;
+	display:table;
+	background-color:#f8f8f8;
+}
+
+.cir li:nth-child(2n){
+	background-color:#ffffff;
+}
+
+.cart_quantity .unitsper{
+	background:#4d4d4d;
+	width:140px;
+	height:35px;
+	border-radius:3px;
+}
+.cart_quantity .unitsper select {
+	color:#ffffff;
+	width:60px;
+	height:30px;
+	margin-left:5px;
+}
+
+.cart_quantity .unitsper input{
+	width:63px;
+	height:30px;
+	border-radius:0 3px 3px 0; 
+}
+
+.ci_pic{
+	width:139px;
+	height:98px;
+	float:left;
+}
+
+.ci_name{
+	float:left;
+	width:60%;
+	margin-left:30px;
+	margin-top:22px;
+}
+
+.ci_name1{
+	width:100%;
+	float:left;
+	color:#000000;
+	font-size:18px;
+	margin-bottom:5px;
+	font-family: 'AvenirNextLTProRegular_0';
+}
+
+.ci_name2{
+	width:100%;
+	float:left;
+	color:#ff0000;
+	font-size:14px;
+	font-family: 'AvenirNextLTProRegular_0';
+}
+
+.coupon_cover{
+	width:75%;
+	float:left;
+	padding-left:30px;
+}
+
+.discount_cover{
+	width:25%;
+	float:right;
+	text-align:right;
+	margin-top:-10px;
+	margin-bottom:-10px;
+}
+
+.coupon_box{
+	width:100%;
+	float:left;
+}
+
+.coupon_input{
+	width:344px;
+	height:54px;
+	float:left;
+}
+
+.coupon_input input{
+	width:100%;
+	float:left;
+	height:54px;
+	border:1px solid #d6d6d6;
+	border-radius:3px;
+	padding:0 20px;
+	font-size:16px;
+}
+
+.coupon_button{
+	width:200px;
+	height:54px;
+	float:left;
+	margin-left:12px;
+}
+
+.coupbtn{
+	width:100%;
+	float:left;
+	border-radius:3px;
+	height:54px;
+	background:#88be4c;
+	color:#ffffff;
+	border:none;
+	outline:none;
+	font-family: 'AvenirNextLTProMedium_0';
+}
+
+.coupon_text{
+	width:100%;
+	float:left;
+	margin-top:18px;
+}
+
+.discount_txtt{
+	width:100%;
+	float:left;
+	padding:10px 30px;
+	border-bottom:1px solid #e2e2e2;
+	font-size:18px;
+}
+
+.discount_txtt span{
+	color:#88be4c;
+	font-family: 'AvenirNextLTPro-Demi';
+	font-weight:bold;
+	font-size:21px;
+}
+
+.discount_txtt font{
+	font-size:20px;
+	font-family: 'AvenirNextLTProMedium_0';
+}
+
+.noborder{
+	border:none;
+}
+
+.chs{
+	width:260px;
+	height:54px;
+	float:left;
+}
+
+.Checkout{
+	width:160px;
+	height:54px;
+	float:right;
+	margin-left:9px;
+}
+
+.update_cart{
+	width:211px;
+	height:54px;
+	float:right;
+}
+
+
+
+.chsbtn{
+	width:100%;
+	float:left;
+	border-radius:3px;
+	height:54px;
+	background:#4d4d4d;
+	color:#ffffff;
+	border:none;
+	outline:none;
+	font-family: 'AvenirNextLTProMedium_0';
+}
+
+
+.uptdbtn{
+	width:100%;
+	float:left;
+	border-radius:3px;
+	height:54px;
+	background:#ffffff;
+	border:1px solid #d6d6d6;
+	color:#000000;
+	outline:none;
+}
+
+.prd_cover{
+	width:100%;
+	float:left;
+	margin:40px 0 50px;	
+}
+
+.prd_picture{
+	width:600px;
+	height:444px;
+	padding:10px;
+	border:1px solid #e7e7e7;
+	margin-right:32px;
+	float:left;
+}
+
+.prd_picture img{
+	max-width:100%;
+}
+
+.prd_detl_cover{
+	width:538px;
+	float:right;
+}
+
+.prd_social{
+	float:left;
+	width:auto;
+	margin-left:15px;
+}
+
+.prd_title{
+	width:100%;
+	float:left;
+	font-size:35px;
+	color:#000000;
+	margin-top:-9px;
+}
+
+.prd_rate{
+	border-bottom: 1px solid #dedede;
+    color: #000000;
+    float: left;
+    font-size: 16px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.prd_rate span{
+	font-size:40px;
+	font-family: 'AvenirNextLTPro-Demi';
+}
+
+.prd_descp p{
+	margin-bottom:20px;
+	text-align:justify;
+	color:#575757;
+}
+
+
+.prd_rate font{
+	color:#fb4e0c;
+	font-size:35px;
+	font-family: "AvenirNextLTProMedium_0";
+}
+
+.prd_addbask .add_to_basket{
+	max-width:245px;
+	height:40px;
+	border-radius:3px;
+}
+
+.prd_addbask .add_to_basket span {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #ffffff;
+    display: inline-block;
+    float: none;
+    font-family: "AvenirNextLTProMedium_0";
+    font-size: 16px;
+    height: auto;
+    padding: 8px 12px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: auto;
+}
+
+.prd_addbask .add_to_basket img {
+    margin-top: -7px;
+}
+
+.prd_descp{
+	width:100%;
+	float:left;
+}
+
+.sel_social{
+	width:100%;
+	float:left;
+	margin:10px 0 15px;
+}
+
+.prd_addbask{
+	width:100%;
+	float:left;
+}
+
+.sel_social .unitsper {
+    background: #dddddd none repeat scroll 0 0;
+    float: left;
+    height: 36px;
+    padding: 2px;
+    width: 130px;
+}
+.sel_social .unitsper input{
+	width:60px;
+	height:30px;
+	margin-top:1px;
+	margin-right:1px;
+}
+.sel_social .unitsper select{
+	width:55px;
+	height:30px;
+	margin-top:1px;
+}
