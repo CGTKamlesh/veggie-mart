@@ -1240,6 +1240,7 @@ body{
 .cart_amounts{
 	width:12%;
 	float:left;
+	text-align:right;
 }
 
 
@@ -1272,6 +1273,7 @@ body{
 	display:table-cell;
 	vertical-align:middle;
 	float:none;
+	text-align:right;
 }
 
 
@@ -1736,3 +1738,12 @@ input.hgauto{
 	padding:0 !important;
 }
 
+.panel .cart_main_cover{
+	margin-top:0px;
+}
+
+
+.panel .cart_main_cover .cart_heading_row{
+	background:#eff7e0;
+	color:#000000;
+}

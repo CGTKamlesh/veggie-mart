@@ -25,13 +25,13 @@
                 <div class="foot_add_2"><img src="images/phone.png">  + 0800 567 345</div>
                 <div class="foot_add_3"><img src="images/msg_icon.png"> support@themesmart.net</div>
                 <div class="foot_social">
-                	<img src="images/s1.png">
-                    <img src="images/s2.png">
-                    <img src="images/s3.png">
-                    <img src="images/s4.png">
-                    <img src="images/s5.png">
-                    <img src="images/s6.png">
-                    <img src="images/s7.png">
+                	<a href="#"><img src="images/s1.png"></a>
+                    <a href="#"><img src="images/s2.png"></a>
+                    <a href="#"><img src="images/s3.png"></a>
+                    <a href="#"><img src="images/s4.png"></a>
+                    <a href="#"><img src="images/s5.png"></a>
+                    <a href="#"><img src="images/s6.png"></a>
+                    <a href="#"><img src="images/s7.png"></a>
                 </div>
             </div>
             <div class="col-sm-8 col-xs-12 col-lg-8">
@@ -76,7 +76,7 @@
 <section class="fullwidth footer3section">
   <div class="container">
   	<div class="row">
-    	<div class="col-sm-12 col-xs-12 coppyright">© 2015 Flavours. All Rights Reserved. <img src="images/Vegetable-footer.png" class="footveggies"></div>
+    	<div class="col-sm-12 col-xs-12 coppyright">© 2016 Flavours. All Rights Reserved. <img src="images/Vegetable-footer.png" class="footveggies"></div>
     </div>
   </div>
 </section>
