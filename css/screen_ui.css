@@ -896,8 +896,19 @@ body{
 	width:80%;
 	float:left;
 	color:#ffffff;
-	margin-top:12px;
+	margin-top:14px;
 }
+
+
+.green_div .discount_pic{
+	padding:24px 0 0 20px;
+}
+
+.green_div .discount_text{
+
+	margin-top:17px;
+}
+
 
 .discount_heading{
 	width:100%;
@@ -1041,7 +1052,8 @@ body{
 
 .footer-column ul li {
 	color: #b7bcc8;
-    list-style: inside none circle;
+	list-style:circle;
+	list-style-position:inside;
 }
 
 
@@ -1049,7 +1061,7 @@ body{
     color: #b7bcc8;
     cursor: pointer;
     display: inline-block !important;
-    font-size: 13px;
+    font-size: 14px;
     margin-bottom: 10px;
     line-height: 20px;
     margin-right: 10px;
@@ -1303,7 +1315,7 @@ body{
 
 .cart_quantity .unitsper input{
 	width:63px;
-	height:30px;
+	height:30px !important;
 	border-radius:0 3px 3px 0; 
 }
 
@@ -1382,13 +1394,13 @@ body{
 .coupbtn{
 	width:100%;
 	float:left;
-	border-radius:3px;
+	border-radius:3px !important;
 	height:54px;
 	background:#88be4c;
-	color:#ffffff;
-	border:none;
+	color:#ffffff !important;
+	border:none !important;
 	outline:none;
-	font-family: 'AvenirNextLTProMedium_0';
+	font-family: 'AvenirNextLTProMedium_0' !important;
 }
 
 .coupon_text{
@@ -1445,20 +1457,20 @@ body{
 .chsbtn{
 	width:100%;
 	float:left;
-	border-radius:3px;
+	border-radius:3px !important;
 	height:54px;
 	background:#4d4d4d;
-	color:#ffffff;
-	border:none;
+	color:#ffffff !important;
+	border:none !important;
 	outline:none;
-	font-family: 'AvenirNextLTProMedium_0';
+	font-family: 'AvenirNextLTProMedium_0' !important;
 }
 
 
 .uptdbtn{
 	width:100%;
 	float:left;
-	border-radius:3px;
+	border-radius:3px !important;
 	height:54px;
 	background:#ffffff;
 	border:1px solid #d6d6d6;
@@ -1590,3 +1602,137 @@ body{
 	height:30px;
 	margin-top:1px;
 }
+
+.orders{
+	margin:30px 0;
+}
+
+.orders .panel{
+	border:none;
+	box-shadow:0 0px 0px rgba(0, 0, 0, 0.05);
+}
+
+.orders .panel-heading{
+	border-bottom:none;
+	border-radius:5px;
+	background-color:#ededed;
+	padding:20px 30px 20px 20px;
+}
+
+.orders .panel-body{
+	border-top:none !important;
+}
+
+.orders .indicator{
+	color:#767676;
+}
+
+.panel-group.orders .panel + .panel {
+    margin-top: 20px;
+}
+
+.orders .panel-title{
+	font-size:20px;
+	color:#000000;
+}
+
+.accordion-toggle, .accordion-toggle:hover{
+	text-decoration:none;
+}
+
+.orders .panel-body{
+	padding:20px 0;
+}
+
+
+.orders .panel-body label{
+	font-size:15px;
+	font-family: 'AvenirNextLTProRegular_0';
+	color:#000000;
+	font-weight:normal;
+}
+
+
+.orders .panel-body input{
+	font-size:14px;
+	font-family: 'AvenirNextLTProRegular_0';
+	color:#000000;
+	height:50px;
+	border:1px solid #cbcbcb;
+	padding:0 20px;
+	border-radius:0px;
+}
+
+.chkbxx{
+	width:100%;
+	float:left;
+	margin-top:10px;
+}
+
+.chkbxx span{
+	display:inline-block;
+	float:left;
+	margin-right:90px;
+}
+
+input.hgauto{
+	float: left;
+    height: 15px !important;
+    margin: 1px 6px 0 0;
+}
+
+.lastrow_pay .chkbxx{
+	margin:0px 0 20px 0px; 
+}
+
+.lastrow_pay .chkbxx span{
+	font-size:15px; 
+}
+
+
+.otp_code_btn{
+	float: left;
+    margin: 26px 0 0 -17px;
+    width: 188px;
+}
+
+.ad_continue_btn{
+	width:160px;
+	float:right;
+	margin:41px 0 0 0px;
+}
+
+.ad_continue_btn2{
+	width:130px;
+	float:right;
+	margin:41px 0 0 0px;
+}
+
+.orrangebtn {
+    background: #fb4e0c none repeat scroll 0 0;
+    border: medium none !important;
+    border-radius: 3px !important;
+    color: #ffffff !important;
+    float: left;
+    font-family: "AvenirNextLTProMedium_0" !important;
+    height: 51px;
+    outline: medium none;
+    width: 100%;
+	font-size:20px !important;
+	padding:0 !important;
+}
+
+.greennbtn {
+    background: #88be4c none repeat scroll 0 0;
+    border: medium none !important;
+    border-radius: 3px !important;
+    color: #ffffff !important;
+    float: left;
+    font-family: "AvenirNextLTProMedium_0" !important;
+    height: 54px;
+    outline: medium none;
+    width: 100%;
+	font-size:20px !important;
+	padding:0 !important;
+}
+
