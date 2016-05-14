@@ -54,3 +54,9 @@
 	
 </script>
 <script type='text/javascript' src="js/bootstrap-slider.js"></script>
+<script type='text/javascript'>
+	$(document).ready(function() {
+		/* Example 2 */
+		$("#ex2").slider({});	   
+	});
+</script>
