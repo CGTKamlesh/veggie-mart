@@ -1,10 +1,16 @@
+<?php
+session_start();
+/*echo "<pre>";
+print_R($_SESSION);
+exit;*/
+?>
 <section class="fullwidth headertop">
   <nav class="navbar navbar-default">
     <div class="container"> 
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header logos">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-        <a class="navbar-brand" href="#"><img src="images/logo.jpg" ></a> </div>
+        <a class="navbar-brand" href="index.php"><img src="images/logo.jpg" ></a> </div>
       
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse navigations" id="bs-example-navbar-collapse-1">      	
@@ -14,10 +20,11 @@
           <li><a href="#"><img src="images/topbus_icon.png">Track Your Order</a></li>
           <li class="active"><a href="#"><img src="images/topmaplocator_icon.png">Select City<span class="sr-only">(current)</span></a></li>
         </ul>
-        <div class="coupon">Coupon Code: <span>Veg500</span> for 15% discount</div>
-        <div class="cartcount_cover"> <img src="images/carticon.png">
-          <div class="cartcount">2</div>
-        </div>
+        <div class="coupon">Coupon Code: <span>happy_50</span> for <span>&#8377;</span>50 discount</div>
+        <div class="cartcount_cover"> 
+        <a href="cart.php"><img src="images/carticon.png">
+          <div class="cartcount"><?php echo (isset($_SESSION['cart']))?count($_SESSION['cart']):0; ?></div>
+        </div></a>
         <ul class="nav navbar-nav navbar-right mainnavigation">
           <li><a href="#">Contact</a></li>
           <li><a href="#">Blog</a></li>
