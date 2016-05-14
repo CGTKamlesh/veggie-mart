@@ -21,8 +21,8 @@
     	<div class="col-md-12">        	
             <div class="col-sm-4 col-xs-12 col-lg-4 footgreen">
             	<div class="foot_logo"><a href=""><img src="images/logo_footer.png"></a></div>
-                <div class="foot_add_1"><img src="images/maplocator_icon.png"> ABC Town Luton Street, New York 226688</div>
-                <div class="foot_add_2"><img src="images/phone.png">  + 0800 567 345</div>
+                <div class="foot_add_1"><img src="images/maplocator_icon.png"> VeggieMart, 1st B Road, Jodhpur</div>
+                <div class="foot_add_2"><img src="images/phone.png">  + 91 98290 98290</div>
                 <div class="foot_add_3"><img src="images/msg_icon.png"> support@themesmart.net</div>
                 <div class="foot_social">
                 	<a href="#"><img src="images/s1.png"></a>
