@@ -1,0 +1,192 @@
+.cover-innerdiv {
+	width: 100%;
+	float: left;
+	background-color: #f1f1f1;
+	border-top: 3px solid #dcdcdc;
+	margin-top: 16px;
+}
+.filetr-div-main {
+	width: 100%;
+	float: left;
+	padding: 11px 12px;
+	border-bottom: 2px solid #dcdcdc;
+	position: relative;
+}
+.filter-text-div {
+	width: 100%;
+	float: Left;
+	font-size: 20px;
+	color: #272727;
+	font-family: 'AvenirNextLTProMedium_0';
+}
+.bordergreen {
+	border: 1px solid #88be4c;
+	bottom: -2px;
+	float: left;
+	left: 0;
+	position: absolute;
+	width: 26%;
+}
+.cover-price-maindiv {
+	width: 100%;
+	float: left;
+	padding: 17px 12px 23px 12px;
+	border-bottom: 1px solid #dcdcdc;
+}
+.price-innerdiv {
+	width: 100%;
+	float: left;
+}
+.price-text {
+	width: 100%;
+	float: left;
+	font-size: 15px;
+	font-family: 'AvenirNextLTProMedium_0';
+	color: #272727;
+	padding-bottom: 7px;
+}
+.progresbar {
+	width: 100%;
+	float: left;
+	padding-bottom:7px;
+}
+.price-withrsdiv {
+	width: 100%;
+	float: left;
+	font-size: 14px;
+	color: #272727;
+	font-family: 'AvenirNextLTProRegular_0';
+}
+.price-withrsdiv span {
+	font-family: 'AvenirNextLTProMedium_0';
+	color: #272727;
+	font-weight: 600;
+}
+.cover-vegetablediv {
+	width: 100%;
+	float: left;
+}
+.vegetabl-inerdiv {
+	width: 100%;
+	float: left;
+	padding: 16px 12px 16px 12px;
+}
+.vege-text {
+	width: 100%;
+	float: left;
+	font-size: 15px;
+	font-family: 'AvenirNextLTProMedium_0';
+	color: #272727;
+}
+.a-divcover {
+	width: 100%;
+	float: left;
+}
+.a-divcover ul {
+	width: 100%;
+	float: left;
+	padding-left: 0;
+	margin-bottom: 0px;
+}
+.a-divcover li {
+	width: 100%;
+	float: left;
+	list-style: none;
+	font-size: 14px;
+	color: #272727;
+	padding: 9px 12px;
+	font-family: 'AvenirNextLTProRegular_0';
+}
+.a-divcover li:first-child {
+	background-color: #e6e6e6;
+	font-size: 14px;
+	color: #fb4e0c;
+	text-transform: uppercase;
+	font-family: 'AvenirNextLTPro-Demi';
+	padding:4px 12px;
+}
+.margibtom39 {
+	margin-bottom: 25px;
+}
+.coverdiv-title-sortby {
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #ececea;
+	margin-bottom: 17px;
+	padding:25px 0 19px;
+}
+.left-inertitlediv {
+	width: 50%;
+	float: left;
+}
+.left-inertitlediv .season_veg_title {
+	border-bottom: none;
+	margin-bottom: 0px;
+	margin-top:0px;
+	padding:0px;
+}
+.right-inersortbydiv {
+	width: 50%;
+	float: right;
+}
+.sotrbydiv {
+	float: right;
+}
+.rightbox {
+	min-width: 255px;
+	float: left;
+}
+.styled-select {
+	border-radius: 2px;
+	float: left;
+	margin-right:0px;
+	overflow: hidden;
+	width: 201px;
+	font-family: 'AvenirNextLTProRegular_0';
+	color:#a3a3a3;
+}
+.styled-select select {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	background: rgba(0, 0, 0, 0) url("images/sortbypicarow.png") no-repeat scroll 100% 0px;
+	border: 1px solid #dddddd;
+	cursor: pointer !important;
+	height:33px;
+	line-height: 1.5;
+	padding: 5px;
+	text-indent: 0.01px;
+	text-overflow: "";
+	width: 100%;
+}
+.lable-text{
+	float:left;
+	color:#000;
+	font-size:14px;
+	margin-right:10px;
+	font-family: 'AvenirNextLTProRegular_0';
+	padding: 6px 0;
+}
+.slider-handle {
+ background: #e8511c none repeat scroll 0 0;
+ box-shadow: none;
+ height:14px;
+ width:14px;
+}
+.slider.slider-horizontal .slider-track {
+ background: #bbbbbb none repeat scroll 0 0;
+ height:2px;
+ left: 0;
+ margin-top: -4px;
+ top: 50%;
+ width: 100%;
+}
+.slider-selection {
+ background: #a4a4a4 none repeat scroll 0 0;
+	height:4px !important;
+}
+.slider.slider-horizontal .slider-tick, 
+.slider.slider-horizontal .slider-handle {
+ margin-left: -10px;
+ margin-top: -6px !important;
+}

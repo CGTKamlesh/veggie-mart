@@ -6,7 +6,7 @@
                 	<div class="discount_pic"><img src="images/bus_icon.png"></div>
                     <div class="discount_text">
                     	<div class="discount_heading">Free Shipping</div>
-                        <div class="discount_subheading">On order over $99.00</div>
+                        <div class="discount_subheading">On order over <span>&#8377;</span>500.00</div>
                     </div>
                 </div>
                 <div class="green_div">
@@ -20,7 +20,7 @@
                 	<div class="discount_pic"><img src="images/icon-need.png"></div>
                     <div class="discount_text">
                     	<div class="discount_heading">Need on Help</div>
-                        <div class="discount_subheading">On order over $88.00</div>
+                        <div class="discount_subheading">On order over <span>&#8377;</span>88.00</div>
                     </div> 
                 </div>
             </div>
