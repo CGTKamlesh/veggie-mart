@@ -8,12 +8,11 @@ if(empty($_POST)){
 else{
     
     $coupon_code=$_POST['coupon_code'];
-    if(strpos($coupon_code,"_")===false){
+    if($coupon_code!='happy50'){
         $response_array=array('success'=>0,'message'=>'Enter valid coupon code');
     }
     else{
-        $coupon_code_array=explode("_",$coupon_code);
-        $coupon_code_amount=$coupon_code_array[1];
+        $coupon_code_amount=50;
         $sub_total=$_SESSION['sub_total'];
         if($coupon_code_amount<=$sub_total){
             $_SESSION['coupon_flag']=1;

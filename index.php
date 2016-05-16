@@ -11,11 +11,36 @@
 </head>
 <body>
 <?php include 'header.php';?>
+<link rel="stylesheet" href="js/countdown/assets/countdown/jquery.countdown.css" />
 <style>
 .svpic{
     cursor:pointer;
 }
+.alert-success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #3c763d;
+    float: left;
+    left: calc(40% - 25%);
+    position: absolute;
+    text-align: center;
+    top: 160px;
+    width: 70%;
+}
+.countDays,.countDiv0{
+    display:none!important;
+}
 </style>
+<?php
+if(isset($_SESSION['payment_success_message']) && $_SESSION['payment_success_message']==1){
+    unset($_SESSION['payment_success_message']);
+?>
+<div class="alert alert-success">
+  <strong>Success!</strong> Your Payment has been done.
+</div>
+<?php
+}
+?>
 <section class="fullwidth heroback">
   <div class="container">
     <div class="row">
@@ -52,19 +77,18 @@
             <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"> <span class="sr-only">60% Complete</span> </div>
           </div>
           <div class="hurryuup">Hurry Up! Offer ends in:</div>
+          
+          <div id="countdown"></div>
           <div class="dealtimeout">
             <div class="hms">
-              <div class="num"><font>08</font></div>
               <div class="txt">HOURS</div>
             </div>
-            <span>:</span>
+            <span>&nbsp;</span>
             <div class="hms">
-              <div class="num"><font>19</font></div>
               <div class="txt">MINS</div>
             </div>
-            <span>:</span>
+            <span>&nbsp;</span>
             <div class="hms">
-              <div class="num"><font>54</font></div>
               <div class="txt">SECS</div>
             </div>
           </div>
@@ -418,6 +442,7 @@
 
 <?php include 'alljs.php';?>
 <script type="text/javascript" src="js/add_to_fridge.js"></script>
+<script src="js/countdown/assets/countdown/jquery.countdown.js"></script>
 <script>
 $(".svpic").click(function(){
     var veg=$(this).data('veg');
@@ -428,6 +453,11 @@ $(".svpic").click(function(){
     var abbr=$(this).data('abbr');
     window.location.href="product_detail.php?veg="+veg+"&price="+price+"&option="+option+"&name="+name+"&icon="+icon+"&abbr="+abbr;
 });
+var ts = (new Date()).getTime() + 1*9*60*60*1000;
+$('#countdown').countdown({
+		timestamp	: ts,
+	});
+
 </script>
 
 </body>

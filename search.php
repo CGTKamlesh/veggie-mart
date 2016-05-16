@@ -37,8 +37,9 @@ include 'allcss.php';?>
             <div class="styled-select">
               <select name="" id="">
                 <option>Sort By</option>
-                <option>xyz</option>
-                <option>abc</option>
+                <option>Price (Low to High)</option>
+                <option>Price (High to Low)</option>
+                <option>Most Popular</option>
               </select>
             </div>
           </div>

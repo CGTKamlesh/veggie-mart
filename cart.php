@@ -194,7 +194,7 @@ if(!isset($_SESSION['cart'])){
                     <div class="chs"><a href="index.php"><input type="submit" class="chsbtn" value="Continue Healthy Shopping"></a></div>
                 </div>
                 <div class="col-md-6">
-                    <div class="Checkout"><input type="button" class="coupbtn" value="Checkout"></div>
+                    <div class="Checkout"><input type="button" class="coupbtn" id="checkout" value="Checkout" /></div>
                     <div class="update_cart"><input type="button" id="update-fridge-button" class="uptdbtn" value="Update Cart"></div>                
                 </div>
             </div>
@@ -273,6 +273,10 @@ $(document).ready(function(){
                     }
                }
           });
+   });
+   
+   $("#checkout").click(function(){
+        window.location.href='orders.php';
    });
    
 });

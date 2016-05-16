@@ -1,8 +1,11 @@
 <?php
 session_start();
 /*echo "<pre>";
-print_R($_SESSION);
+print_R($_SERVER);
 exit;*/
+$script_name=explode('/',$_SERVER['SCRIPT_NAME']);
+$total_script_count=count($script_name);
+$current_script=(isset($script_name[$total_script_count-1]))?$script_name[$total_script_count-1]:'';
 ?>
 <section class="fullwidth headertop">
   <nav class="navbar navbar-default">
@@ -30,8 +33,8 @@ exit;*/
           <li><a href="#">Blog</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Services</a></li>
-          <li><a href="#">Shop</a></li>
-          <li class="active"><a href="#">Home</a></li>
+          <li class="<?php echo ($current_script=='search.php')?'active':''; ?>"><a href="search.php">Shop</a></li>
+          <li class="<?php echo ($current_script=='index.php')?'active':''; ?>"><a href="index.php">Home</a></li>
           <!--<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="#">Action</a></li>

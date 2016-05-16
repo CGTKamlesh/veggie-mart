@@ -149,7 +149,7 @@
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	appearance: none;
-	background: rgba(0, 0, 0, 0) url("images/sortbypicarow.png") no-repeat scroll 100% 0px;
+	background: rgba(0, 0, 0, 0) url("../images/sortbypicarow.png") no-repeat scroll 100% 0px;
 	border: 1px solid #dddddd;
 	cursor: pointer !important;
 	height:33px;
