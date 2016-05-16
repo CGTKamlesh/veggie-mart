@@ -75,7 +75,11 @@ body{
 }
 
 .headertop{
-	min-height:40px;
+	left: 0;
+    min-height: 40px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
 }
 
 .heroback{
@@ -135,6 +139,7 @@ body{
 	background:rgba(255,255,255,0.22);
 	margin-right:0px;
 	padding-right:5px;
+	margin-top:-1px;
 }
 
 .mainnavigation > li {
@@ -143,12 +148,13 @@ body{
 
 .cartcount_cover{
 	float:right;
-	height:75px;
+	height:76px;
 	background:#fb4e0c;
 	min-width:72px;
 	text-align:center;
 	padding:29px 0 0;
 	position:relative;
+	margin-top:-1px;
 }
 .navigations{
 	width:81.6%;
@@ -260,6 +266,10 @@ body{
 	border-radius:0 4px 4px 0;
 	min-width:66px;
 	text-align:center;
+}
+
+.herosearch:hover, .herosearch:active, .herosearch:focus{
+	background:#fb4e0c;
 }
 
 .allveggie{

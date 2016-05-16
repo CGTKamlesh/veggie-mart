@@ -2,7 +2,7 @@
         <div class="form-group herosearchbar">
           <form class="navbar-form navbar-left" role="search">
             <input type="text" class="form-control" placeholder="Search Vegetables eg. bell pepper, carrot, tomato etc.">
-            <button type="submit" class="btn btn-default herosearch"><img src="images/searchicon.png"></button>
+            <button type="submit" class="herosearch"><img src="images/searchicon.png"></button>
           </form>
         </div>
         <div class="allveggie">
