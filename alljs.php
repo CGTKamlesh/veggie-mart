@@ -57,6 +57,30 @@
 <script type='text/javascript'>
 	$(document).ready(function() {
 		/* Example 2 */
-		$("#ex2").slider({});	   
+		$("#ex2").slider({});
+			   
+	    /*For fixed header Scrolling*/
+		var scroll_pos = 0;
+		$(document).scroll(function() { 
+			scroll_pos = $(this).scrollTop();
+			if(scroll_pos > 10) {
+				$(".mainnavigation").css('background-color', '#252932');
+				$(".mainnavigation").css('border-top', '1px solid #666666');
+			} else {
+				$(".mainnavigation").css('border-top', '1px solid transparent');
+				$(".mainnavigation").css('background-color', 'rgba(255, 255, 255, 0.22)');
+			}
+		});
+		scroll_pos = $(this).scrollTop();
+		
+		if(scroll_pos > 10) {
+			$(".mainnavigation").css('background-color', '#252932');
+			$(".mainnavigation").css('border-top', '1px solid #666666');
+		} else {
+			$(".mainnavigation").css('border-top', '1px solid transparent');
+			$(".mainnavigation").css('background-color', 'rgba(255, 255, 255, 0.22)');
+		}
+		/*For fixed header Scrolling ENDS*/
 	});
 </script>
+
